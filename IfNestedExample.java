@@ -3,7 +3,7 @@ public class IfNestedExample {
     public static void main(String[] args) {
         int score = 95;
         score = 80;
-        int num = (int) (Math.random() * 6) + 1; //Math.random() => 0과 1의 임의의 수를 만들어 준다.(0<=임의의 수<=1) 현재 메소드((0*6<=임의의수<=1*6)+1)는 0<임의의 수<7
+        int num = (int) (Math.random() * 6) + 1; //Math.random() => 0과 1의 임의의 수를 만들어 준다.(0<=임의의 수<1) 현재 메소드((0*6<=임의의수<=1*6)+1)는 0<임의의 수<7
         if (num == 1) {
             System.out.println("번호 1번이 나왔습니다.");
         } else if (num == 2) {
